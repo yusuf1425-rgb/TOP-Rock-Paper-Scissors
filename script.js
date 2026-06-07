@@ -1,5 +1,7 @@
 console.log("Hello World!");
 
+let humanScore, computerScore = 0;
+
 function getComputerChoice() { 
     let randomNum = Math.floor(Math.random() * 3);
     return getRockPaperScissors(randomNum);
@@ -21,4 +23,3 @@ function getHumanChoice(){
     return humanChoice;
 }
 
-console.log(getHumanChoice());
