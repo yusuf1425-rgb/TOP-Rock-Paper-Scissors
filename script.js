@@ -16,3 +16,9 @@ function getRockPaperScissors(randomNum) {
     }
 }
 
+function getHumanChoice(){
+    let humanChoice = prompt("Rock, Paper or Scissors? \nEnter your choice:");
+    return humanChoice;
+}
+
+console.log(getHumanChoice());
